@@ -6,7 +6,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     margin: 0;
     padding: 20px;
 }
@@ -37,17 +37,17 @@ body {
     position: relative;
     bottom: -20px;
 }
-.conteudo {
+.content {
     padding: 30px 20px;
     background: #f7f4f0;
 }
-.titulo {
+.title {
     font-family: "Oswald", cursive;
     font-size: 32px;
     font-weight: 700;
     color: #333;
 }
-.informacao {
+.info {
     font-size: 16px;
     color: #666;
     margin-bottom: 20px;
@@ -82,13 +82,13 @@ body {
 }
 
 @media (max-width: 480px) {
-    .conteudo {
+    .content {
         padding: 20px;
     }
-    .titulo {
+    .title {
         font-size: 28px;
     }
-    .informacao {
+    .info {
         font-size: 14px;
     }
     .whatsapp-btn {
